@@ -1,0 +1,12 @@
+@import 'styles/vars-and-mixins.scss';
+
+.#{$namespace} {
+  &example {
+    padding: 2rem;
+
+    &__content {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+    }
+  }
+}
